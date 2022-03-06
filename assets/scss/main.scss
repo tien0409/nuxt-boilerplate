@@ -1,0 +1,21 @@
+html {
+  font-size: 14px !important;
+  font-weight: 300 !important;
+}
+
+.custom__scroll {
+  &::-webkit-scrollbar-thumb {
+    background-color: #C8C9CC;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar {
+    height: 15px;
+  }
+
+  &.custom__scroll--small {
+    &::-webkit-scrollbar {
+      height: 5px;
+    }
+  }
+}
